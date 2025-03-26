@@ -3,8 +3,8 @@ import pygame
 pygame.init()
 
 # Define screen details
-WIDTH, HEIGHT = 500, 500
-ROWS, COLS = 10, 10
+WIDTH, HEIGHT = 576, 576
+ROWS, COLS = 9, 9
 CELL_SIZE = WIDTH // ROWS
 
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
